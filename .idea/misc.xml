@@ -5,7 +5,12 @@
       <map>
         <entry key="app/src/main/res/layout/LoginRegisterView.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/graphs.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/login.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/measurements.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/plants.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/tools.xml" value="0.2203125" />
       </map>
     </option>
   </component>
