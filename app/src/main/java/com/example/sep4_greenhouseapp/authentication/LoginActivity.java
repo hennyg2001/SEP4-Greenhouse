@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText emailTextView, passwordTextView;
     private Button Btn;
     private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -32,8 +33,8 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         // initialising all views through id defined above
-        emailTextView = findViewById(R.id.emailInput);
-        passwordTextView = findViewById(R.id.passwordInput);
+        emailTextView = findViewById(R.id.email);
+        passwordTextView = findViewById(R.id.password);
         Btn = findViewById(R.id.loginButton);
 
         // Set on Click Listener on Sign-in button
@@ -102,8 +103,12 @@ public class LoginActivity extends AppCompatActivity {
                                             .show();
 
                                 }
+
                             }
+
                         });
+
     }
+
 
 }

@@ -34,8 +34,8 @@ public class RegistrationActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         // initialising all views through id defined above
-        emailTextView = findViewById(R.id.emailInput);
-        passwordTextView = findViewById(R.id.passwordInput);
+        emailTextView = findViewById(R.id.email);
+        passwordTextView = findViewById(R.id.password);
         Btn = findViewById(R.id.registerButton);
 
         // Set on Click Listener on Registration button
