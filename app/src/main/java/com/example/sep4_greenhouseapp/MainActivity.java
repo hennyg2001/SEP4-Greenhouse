@@ -7,16 +7,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView loginSuccess;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        // initialising all views through id defined above
-        loginSuccess = findViewById(R.id.ls);
-        loginSuccess.setText("Welcome!");
     }
 
     @Override
