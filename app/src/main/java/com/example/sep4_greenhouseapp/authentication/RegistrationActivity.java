@@ -28,7 +28,7 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.activity_registration);
 
         // taking FirebaseAuth instance
         mAuth = FirebaseAuth.getInstance();
