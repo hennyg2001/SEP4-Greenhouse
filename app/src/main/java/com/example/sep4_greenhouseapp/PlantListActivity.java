@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.sep4_greenhouseapp.model.Plant;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class PlantListActivity extends AppCompatActivity implements PlantAdapter.OnListItemClicker {
 
