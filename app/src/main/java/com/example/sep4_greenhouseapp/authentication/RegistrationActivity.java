@@ -44,6 +44,7 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 registerNewUser();
+                setContentView(R.layout.activity_main);
             }
         });
     }
