@@ -19,6 +19,7 @@ public class PlantListActivity extends AppCompatActivity implements PlantAdapter
 
     RecyclerView recyclerView;
     FloatingActionButton myFab;
+    static ArrayList<Plant> plants = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +30,9 @@ public class PlantListActivity extends AppCompatActivity implements PlantAdapter
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.hasFixedSize();
 
-        ArrayList<Plant> plants = new ArrayList<>();
-
-        plants.add(new Plant("Sunflower", "Flower"));
-        plants.add(new Plant("Rose", "Flower"));
-        plants.add(new Plant("Fern", "Bush"));
-        plants.add(new Plant("Tulip", "Flower"));
-        plants.add(new Plant("Marijuana", "Cannabis"));
-        plants.add(new Plant("Bonsai", "Tree"));
-        plants.add(new Plant("Cactus", "Cactaceae"));
-        plants.add(new Plant("Ivy", "Wood plant"));
-        plants.add(new Plant("Shiitake", "Mushroom"));
+        plants.add(new Plant("Sunflower", "Flower", "gg1"));
+        plants.add(new Plant("Rose", "Flower", "gg2"));
+        plants.add(new Plant("Fern", "Bush", "gg3"));
 
         PlantAdapter adapter = new PlantAdapter(plants, this);
         recyclerView.setAdapter(adapter);
@@ -49,6 +42,14 @@ public class PlantListActivity extends AppCompatActivity implements PlantAdapter
             public void onClick(View v) {
                 startActivity(new Intent(PlantListActivity.this, CreatePlantActivity.class));            }
         });
+    }
+
+    public static ArrayList<Plant> getPlants() {
+        return plants;
+    }
+
+    public void addPlant(Plant plant) {
+        plants.add(plant);
     }
 
     @Override
