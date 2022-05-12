@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements PlantAdapter.OnLi
 
     @Override
     public void onClick(int position) {
-        Toast.makeText(this, "Position: " + position, Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(MainActivity.this, PlantListActivity.class));
     }
 
 }
