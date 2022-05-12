@@ -30,28 +30,28 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                setContentView(R.layout.plants_list);
+                startActivity(new Intent(HomeActivity.this, PlantListActivity.class));
             }
         });
         plantProfilesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
-                setContentView(R.layout.plants_list);
+                startActivity(new Intent(HomeActivity.this, PlantListActivity.class));
             }
         });
         graphsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
-                setContentView(R.layout.plants_list);
+                startActivity(new Intent(HomeActivity.this, PlantListActivity.class));
             }
         });
         checklistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
-                setContentView(R.layout.plants_list);
+                startActivity(new Intent(HomeActivity.this, PlantListActivity.class));
             }
         });
     }
