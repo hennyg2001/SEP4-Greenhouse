@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.sep4_greenhouseapp.HomeActivity;
 import com.example.sep4_greenhouseapp.MainActivity;
 import com.example.sep4_greenhouseapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -44,7 +45,7 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 registerNewUser();
-                setContentView(R.layout.activity_main);
+                startActivity(new Intent(RegistrationActivity.this, HomeActivity.class));
             }
         });
     }

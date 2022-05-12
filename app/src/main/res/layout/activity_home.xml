@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="65dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="165dp"
+                android:layout_height="70dp"
+                android:text="Welcome Henrik!"
+                android:textSize="30dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/notificationsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_gravity="end"
+                app:srcCompat="@android:drawable/ic_popup_reminder" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/actuatorButton"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:srcCompat="@android:drawable/ic_menu_manage" />
+
+            <ImageButton
+                android:id="@+id/checklistButton"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:srcCompat="@android:drawable/ic_menu_day" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/measurementsButton"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+            <ImageButton
+                android:id="@+id/plantProfilesButton"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
