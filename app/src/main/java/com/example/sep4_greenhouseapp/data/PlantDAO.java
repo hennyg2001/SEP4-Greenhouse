@@ -1,4 +1,4 @@
-package com.example.sep4_greenhouseapp;
+package com.example.sep4_greenhouseapp.data;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
