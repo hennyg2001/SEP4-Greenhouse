@@ -5,7 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/LoginRegisterView.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_create_plant.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_measurements.xml" value="0.75" />

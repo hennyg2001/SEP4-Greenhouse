@@ -2,6 +2,7 @@ package com.example.sep4_greenhouseapp.model;
 
 public class Plant {
 
+    private String id;
     private String name;
     private String type;
     private String description;
