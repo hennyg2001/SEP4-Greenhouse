@@ -7,8 +7,6 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sep4_greenhouseapp.authentication.RegistrationActivity;
-
 public class HomeActivity extends AppCompatActivity {
 
     ImageButton actuatorButton;
